@@ -113,3 +113,23 @@ a {
    padding-top: 20px;
    box-shadow: 2px 2px 30px;
 }
+
+.contactinfo {
+    margin-top: 30px;
+    float: right;
+    width:60%;
+    height: 320px;
+    background-color: darkslategray;
+    margin-right: 20px;
+    border: 25px;
+    border-color: white;
+    border-style: inset;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
