@@ -51,7 +51,7 @@ a {
         clear: both;
         float: left;
         width: 35%;
-        height: 800px;
+        height: 850px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         background-color: darkslategray;
         border: 30px;
@@ -70,7 +70,7 @@ a {
 
 
 .aboutme p {
-    
+    margin-bottom: 20px;
     font-size: 30px;
     color: white;
     text-align: left;
@@ -78,5 +78,38 @@ a {
     width: fit-content;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-indent: 40px;
+    text-shadow: 2px 2px 30px;
     
+}
+
+.mywork {
+    float: right;
+    width:60%;
+    height: 500px;
+    background-color: darkslategray;
+    margin-right: 20px;
+    border: 25px;
+    border-color: white;
+    border-style: inset;
+}
+
+.mywork h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mywork h3 {
+    margin-top: 20px;
+   margin-left: 30px;
+   width: 33%;
+   height: 300px;
+   background-image: url("../images/github.jpg");
+   background-position: center;
+   color: white;
+   text-align: center;
+   padding-top: 20px;
+   box-shadow: 2px 2px 30px;
 }
