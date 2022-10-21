@@ -57,6 +57,7 @@ a {
         border: 30px;
         border-color: white;
         border-style: inset;
+       
 }
 
 .aboutme h2 {
@@ -66,6 +67,10 @@ a {
     height: 100px;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 10px;
+    border-style: groove;
+    border-color: white;
+   
 }
 
 
@@ -99,10 +104,13 @@ a {
     font-size: 50px;
     color:white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    
 }
 
+
 .mywork h3 {
-    margin-top: 20px;
+    margin-top: 30px;
    margin-left: 30px;
    width: 33%;
    height: 300px;
@@ -112,6 +120,19 @@ a {
    text-align: center;
    padding-top: 20px;
    box-shadow: 2px 2px 30px;
+}
+
+.mywork h4 {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 33%;
+    height: 150px;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    box-shadow: 2px 2px 30px;
+
 }
 
 .contactinfo {
@@ -124,6 +145,25 @@ a {
     border: 25px;
     border-color: white;
     border-style: inset;
+
+}
+
+.contactinfo h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    margin-bottom: 60px;
+}
+
+.contactinfo h3 {
+    display: inline;
+    color: white;
+    margin: 25px;
+    font-size: 23px;
+    margin-left: 35px;
 }
 
 footer {
